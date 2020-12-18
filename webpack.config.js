@@ -1,9 +1,10 @@
 const path = require('path');
-const webpack = require('webpack');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  entry: './src/javascripts/index.js',
+  entry: {
+    application: './src/javascripts/index.js'
+  },
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
@@ -13,7 +14,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'javascripts/application.js'
+    filename: 'javascripts/[name].js'
   },
   module: {
     rules: [
