@@ -11,9 +11,9 @@
   "author": "Abdulmalek Al-Gahmi",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
+    "@babel/cli": "^7.12.17",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.2.2",
     "css-loader": "^2.1.1",
@@ -24,9 +24,12 @@
     "raw-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
-    "webpack": "^4.44.2",
+    "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@popperjs/core": "^2.8.2",
+    "bootstrap": "^5.0.0-beta2"
+  }
 }
